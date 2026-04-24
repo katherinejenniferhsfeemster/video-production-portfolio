@@ -2,6 +2,8 @@
 
 **Katherine Feemster** · Video Production Professional
 
+[🌐 **Live portfolio site**](https://katherinejenniferhsfeemster.github.io/video-production-portfolio/) · [GitHub repo](https://github.com/katherinejenniferhsfeemster/video-production-portfolio)
+
 End-to-end, code-first video production for an AI research program: dataset
 curation from raw footage, reproducible NLE projects (Shotcut, OpenShot,
 Lightworks), interchange to OpenTimelineIO and CMX-3600 EDL, automated captioning
