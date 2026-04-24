@@ -2,6 +2,8 @@
 
 # Video Production Portfolio
 
+**by Katherine Feemster**
+
 ### Senior Video Production Professional · Editorial · Captions · OTIO & EDL Interchange
 
 [🌐 **Live portfolio site**](https://katherinejenniferhsfeemster.github.io/video-production-portfolio/) · [GitHub repo](https://github.com/katherinejenniferhsfeemster/video-production-portfolio)
@@ -99,6 +101,8 @@ Open to remote and contract engagements. This repository is the living portfolio
 ---
 
 ## Contact
+
+**Katherine Feemster**
 
 - GitHub — [@katherinejenniferhsfeemster](https://github.com/katherinejenniferhsfeemster)
 - Live site — [katherinejenniferhsfeemster.github.io/video-production-portfolio](https://katherinejenniferhsfeemster.github.io/video-production-portfolio/)
