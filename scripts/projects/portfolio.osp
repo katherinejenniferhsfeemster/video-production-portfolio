@@ -16,7 +16,7 @@
   "profile": "HD 720p 30 fps",
   "files": [
     {
-      "id": "FC7E0B8",
+      "id": "F703696",
       "path": "../../assets/data/clip_a.mp4",
       "media_type": "video",
       "fps": {
@@ -35,7 +35,7 @@
       "has_video": true
     },
     {
-      "id": "F00E41A",
+      "id": "FD6A358",
       "path": "../../assets/data/clip_b.mp4",
       "media_type": "video",
       "fps": {
@@ -54,7 +54,7 @@
       "has_video": true
     },
     {
-      "id": "F36E70E",
+      "id": "F3EE5C9",
       "path": "../../assets/data/clip_c.mp4",
       "media_type": "video",
       "fps": {
@@ -75,9 +75,9 @@
   ],
   "clips": [
     {
-      "id": "CE43609",
+      "id": "C0E99D9",
       "title": "calibration",
-      "file_id": "FC7E0B8",
+      "file_id": "F703696",
       "reader": {
         "path": "../../assets/data/clip_a.mp4"
       },
@@ -132,9 +132,9 @@
       "scale": 1
     },
     {
-      "id": "C541FC9",
+      "id": "CDFDE45",
       "title": "title",
-      "file_id": "F00E41A",
+      "file_id": "FD6A358",
       "reader": {
         "path": "../../assets/data/clip_b.mp4"
       },
@@ -189,9 +189,9 @@
       "scale": 1
     },
     {
-      "id": "C1F9A4A",
+      "id": "CD0A54A",
       "title": "b-roll",
-      "file_id": "F36E70E",
+      "file_id": "F3EE5C9",
       "reader": {
         "path": "../../assets/data/clip_c.mp4"
       },
