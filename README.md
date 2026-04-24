@@ -1,6 +1,6 @@
 # Video Production Portfolio — AI Dataset Assets
 
-**Katherine Feemster** · Video Production Professional · [Company, years]
+**Katherine Feemster** · Video Production Professional
 
 End-to-end, code-first video production for an AI research program: dataset
 curation from raw footage, reproducible NLE projects (Shotcut, OpenShot,
@@ -76,12 +76,9 @@ video-portfolio/
 
 ## About the author
 
-Senior video production professional with [years] years of editorial, motion
-and technical supervisor experience for [Company, years]. Comfortable owning a
-project from raw footage ingest through finishing, captioning and delivery, with
-a bias for reproducible, code-driven pipelines over manual NLE sessions.
+Senior video production professional with editorial, motion and technical
+supervisor experience. Comfortable owning a project from raw footage ingest
+through finishing, captioning and delivery, with a bias for reproducible,
+code-driven pipelines over manual NLE sessions.
 
 - GitHub: [katherinejenniferhsfeemster](https://github.com/katherinejenniferhsfeemster)
-
-> Placeholders `[Company, years]` are intentional — swap them for the specific
-> role you're reviewing this portfolio for.
