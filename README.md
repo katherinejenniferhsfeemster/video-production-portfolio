@@ -82,7 +82,6 @@ project from raw footage ingest through finishing, captioning and delivery, with
 a bias for reproducible, code-driven pipelines over manual NLE sessions.
 
 - GitHub: [katherinejenniferhsfeemster](https://github.com/katherinejenniferhsfeemster)
-- Email: `gennadiykozlyakov@mail.ru`
 
 > Placeholders `[Company, years]` are intentional — swap them for the specific
 > role you're reviewing this portfolio for.
