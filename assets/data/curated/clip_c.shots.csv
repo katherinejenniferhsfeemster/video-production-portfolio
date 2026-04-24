@@ -1,0 +1,2 @@
+shot_id,start_tc,end_tc,start_frame,end_frame,duration_s,ahash_a,ahash_b,ahash_c,dedup_key
+0,00:00:00.000,00:00:06.000,0,180,6.0,f0f0f0f0f0f0f0f0,fefcf8f0e0e0c080,ffff3f1f07010000,fefcf8f0e0e0c080

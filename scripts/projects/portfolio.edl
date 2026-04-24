@@ -1,0 +1,14 @@
+TITLE:   KATHERINE_FEEMSTER_PORTFOLIO
+FCM: NON-DROP FRAME
+
+001  AX      V     C        00:00:00:00 00:00:04:00 00:00:00:00 00:00:04:00
+* FROM CLIP NAME: clip_a.mp4
+* COMMENT: calibration
+
+002  BX      V     C        00:00:00:00 00:00:03:00 00:00:04:00 00:00:07:00
+* FROM CLIP NAME: clip_b.mp4
+* COMMENT: title
+
+003  CX      V     C        00:00:00:15 00:00:05:15 00:00:07:00 00:00:12:00
+* FROM CLIP NAME: clip_c.mp4
+* COMMENT: b-roll

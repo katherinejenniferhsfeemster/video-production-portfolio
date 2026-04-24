@@ -1,0 +1,26 @@
+[
+  {
+    "input": "assets/data/clip_a.mp4",
+    "normalized": "assets/data/curated/clip_a.mp4",
+    "manifest": "assets/data/curated/clip_a.shots.csv",
+    "shots": 1,
+    "container": "mov,mp4,m4a,3gp,3g2,mj2",
+    "duration_s": 5.0
+  },
+  {
+    "input": "assets/data/clip_b.mp4",
+    "normalized": "assets/data/curated/clip_b.mp4",
+    "manifest": "assets/data/curated/clip_b.shots.csv",
+    "shots": 1,
+    "container": "mov,mp4,m4a,3gp,3g2,mj2",
+    "duration_s": 4.0
+  },
+  {
+    "input": "assets/data/clip_c.mp4",
+    "normalized": "assets/data/curated/clip_c.mp4",
+    "manifest": "assets/data/curated/clip_c.shots.csv",
+    "shots": 1,
+    "container": "mov,mp4,m4a,3gp,3g2,mj2",
+    "duration_s": 6.0
+  }
+]

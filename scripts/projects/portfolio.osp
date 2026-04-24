@@ -1,0 +1,264 @@
+{
+  "id": "PORTFOLIO0001",
+  "fps": {
+    "num": 30,
+    "den": 1
+  },
+  "width": 1280,
+  "height": 720,
+  "sample_rate": 48000,
+  "channels": 2,
+  "channel_layout": 3,
+  "duration": 12.0,
+  "scale": 15,
+  "tick_pixels": 100,
+  "playhead_position": 0.0,
+  "profile": "HD 720p 30 fps",
+  "files": [
+    {
+      "id": "FC7E0B8",
+      "path": "../../assets/data/clip_a.mp4",
+      "media_type": "video",
+      "fps": {
+        "num": 30,
+        "den": 1
+      },
+      "width": 1280,
+      "height": 720,
+      "video_length": "120",
+      "video_timebase": {
+        "num": 1,
+        "den": 30
+      },
+      "duration": 4.0,
+      "has_audio": true,
+      "has_video": true
+    },
+    {
+      "id": "F00E41A",
+      "path": "../../assets/data/clip_b.mp4",
+      "media_type": "video",
+      "fps": {
+        "num": 30,
+        "den": 1
+      },
+      "width": 1280,
+      "height": 720,
+      "video_length": "90",
+      "video_timebase": {
+        "num": 1,
+        "den": 30
+      },
+      "duration": 3.0,
+      "has_audio": true,
+      "has_video": true
+    },
+    {
+      "id": "F36E70E",
+      "path": "../../assets/data/clip_c.mp4",
+      "media_type": "video",
+      "fps": {
+        "num": 30,
+        "den": 1
+      },
+      "width": 1280,
+      "height": 720,
+      "video_length": "150",
+      "video_timebase": {
+        "num": 1,
+        "den": 30
+      },
+      "duration": 5.0,
+      "has_audio": true,
+      "has_video": true
+    }
+  ],
+  "clips": [
+    {
+      "id": "CE43609",
+      "title": "calibration",
+      "file_id": "FC7E0B8",
+      "reader": {
+        "path": "../../assets/data/clip_a.mp4"
+      },
+      "position": 0.0,
+      "start": 0.0,
+      "end": 4.0,
+      "layer": 1000000,
+      "alpha": {
+        "Points": [
+          {
+            "co": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "interpolation": 0
+          }
+        ]
+      },
+      "scale_x": {
+        "Points": [
+          {
+            "co": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "interpolation": 0
+          }
+        ]
+      },
+      "scale_y": {
+        "Points": [
+          {
+            "co": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "interpolation": 0
+          }
+        ]
+      },
+      "volume": {
+        "Points": [
+          {
+            "co": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "interpolation": 0
+          }
+        ]
+      },
+      "scale": 1
+    },
+    {
+      "id": "C541FC9",
+      "title": "title",
+      "file_id": "F00E41A",
+      "reader": {
+        "path": "../../assets/data/clip_b.mp4"
+      },
+      "position": 4.0,
+      "start": 0.0,
+      "end": 3.0,
+      "layer": 1000000,
+      "alpha": {
+        "Points": [
+          {
+            "co": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "interpolation": 0
+          }
+        ]
+      },
+      "scale_x": {
+        "Points": [
+          {
+            "co": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "interpolation": 0
+          }
+        ]
+      },
+      "scale_y": {
+        "Points": [
+          {
+            "co": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "interpolation": 0
+          }
+        ]
+      },
+      "volume": {
+        "Points": [
+          {
+            "co": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "interpolation": 0
+          }
+        ]
+      },
+      "scale": 1
+    },
+    {
+      "id": "C1F9A4A",
+      "title": "b-roll",
+      "file_id": "F36E70E",
+      "reader": {
+        "path": "../../assets/data/clip_c.mp4"
+      },
+      "position": 7.0,
+      "start": 0.5,
+      "end": 5.5,
+      "layer": 1000000,
+      "alpha": {
+        "Points": [
+          {
+            "co": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "interpolation": 0
+          }
+        ]
+      },
+      "scale_x": {
+        "Points": [
+          {
+            "co": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "interpolation": 0
+          }
+        ]
+      },
+      "scale_y": {
+        "Points": [
+          {
+            "co": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "interpolation": 0
+          }
+        ]
+      },
+      "volume": {
+        "Points": [
+          {
+            "co": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "interpolation": 0
+          }
+        ]
+      },
+      "scale": 1
+    }
+  ],
+  "effects": [],
+  "markers": [],
+  "tracks": [
+    {
+      "id": "T0",
+      "label": "V1",
+      "number": 1000000,
+      "y": 0,
+      "lock": false
+    }
+  ],
+  "version": {
+    "openshot-qt": "3.2.1",
+    "libopenshot": "0.4.0"
+  }
+}

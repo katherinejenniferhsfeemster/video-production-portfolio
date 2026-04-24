@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Katherine Feemster — Video Production Professional</title>
+  <meta name="description" content="Senior video production portfolio — Shotcut, OpenShot, Lightworks, ffmpeg, PySceneDetect, OpenTimelineIO, EDL, auto-captioning. Reproducible, code-driven editorial pipelines for AI research." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap nav-inner">
+    <a href="#top" class="brand">
+      <span class="brand-mark" aria-hidden="true">◐</span>
+      <span>Katherine Feemster</span>
+    </a>
+    <nav>
+      <a href="#work">Work</a>
+      <a href="#code">Code</a>
+      <a href="#stack">Stack</a>
+      <a href="#about">About</a>
+      <a class="btn btn-outline" href="https://github.com/katherinejenniferhsfeemster/video-production-portfolio" target="_blank" rel="noopener">GitHub ↗</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <div class="wrap hero-inner">
+      <div class="hero-copy">
+        <p class="eyebrow">Video production · Shotcut · OpenShot · Lightworks · AI dataset assets</p>
+        <h1>I build the <span class="accent">code-driven video pipelines</span> that turn raw footage into clean training data and crisp research cuts.</h1>
+        <p class="lede">
+          A decade across <b>Shotcut, OpenShot, Lightworks, ffmpeg and OpenTimelineIO</b>. Most of my editorial is scripts, because timelines you can diff are timelines you can ship.
+        </p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="#work">See the work</a>
+          <a class="btn btn-ghost" href="https://github.com/katherinejenniferhsfeemster/video-production-portfolio" target="_blank" rel="noopener">Browse the repo</a>
+        </div>
+      </div>
+      <figure class="hero-art">
+        <img src="assets/timeline_mock.png" alt="Editorial timeline mock showing three clips with cross-dissolves, dynamic lower-thirds and an audio track" />
+        <figcaption>Editorial timeline mock — rendered live from <code>render_posters.py</code></figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="strip">
+    <div class="wrap strip-inner">
+      <span>Shotcut / MLT</span>
+      <span>OpenShot</span>
+      <span>Lightworks</span>
+      <span>ffmpeg</span>
+      <span>PySceneDetect</span>
+      <span>OpenTimelineIO</span>
+      <span>CMX-3600 EDL</span>
+      <span>.cube LUT</span>
+      <span>Whisper</span>
+      <span>EBU R128</span>
+      <span>OpenCV</span>
+      <span>Python</span>
+    </div>
+  </section>
+
+  <section id="work" class="section">
+    <div class="wrap">
+      <h2>Selected projects</h2>
+      <p class="section-lede">Five projects that together cover the full video-for-AI pipeline — from raw footage ingest through deduplicated datasets, editorial cuts and captioned delivery.</p>
+
+      <div class="cards">
+
+        <article class="card feature">
+          <div class="card-media">
+            <img src="assets/scene_grid.png" alt="Scene grid of the synthetic dataset: color bars, moving gradient, and test pattern sampled at key timestamps" />
+          </div>
+          <div class="card-body">
+            <p class="tag">Dataset curation · ffmpeg · PySceneDetect · aHash</p>
+            <h3>AI dataset video curation</h3>
+            <p>The pipeline I run before any footage reaches a model. Scene detection via PySceneDetect, 8×8 average-hash deduplication, `ffprobe`-driven normalization to 1080p30 / yuv420p / AAC 48 kHz, and a diffable <code>manifest.csv</code> that reviewers can see in a PR.</p>
+            <p class="meta">Deterministic, no-GPU curation · drops exact + near-duplicate scenes · hook point for CLIP-based semantic dedup</p>
+            <a class="link" href="https://github.com/katherinejenniferhsfeemster/video-production-portfolio/tree/main/projects/ai-dataset-curation" target="_blank" rel="noopener">Read the case study →</a>
+          </div>
+        </article>
+
+        <article class="card feature reverse">
+          <div class="card-media">
+            <img src="assets/timeline_mock.png" alt="Editorial timeline with three video clips, cross-dissolves and a waveform track" />
+          </div>
+          <div class="card-body">
+            <p class="tag">Shotcut · MLT XML · dynamicText</p>
+            <h3>Shotcut MLT project generator</h3>
+            <p>Python emits a valid Shotcut <code>.mlt</code> with a pinned 1080p30 profile, three producers, a main playlist, a tractor with audio + video tracks, and <code>dynamicText</code> lower-thirds. Opens and edits just like a hand-built project — but lives in git.</p>
+            <p class="meta">MLT XML · reviewable cuts · parameter-sweep friendly · cross-machine deterministic</p>
+            <a class="link" href="https://github.com/katherinejenniferhsfeemster/video-production-portfolio/tree/main/projects/shotcut-mlt-generator" target="_blank" rel="noopener">Read the case study →</a>
+          </div>
+        </article>
+
+        <div class="grid-3">
+          <article class="card">
+            <div class="card-body">
+              <p class="tag">OpenShot · OTIO · Interchange</p>
+              <h3>OpenShot OSP + OTIO builder</h3>
+              <p>Same source of truth, two extra formats: OpenShot's JSON <code>.osp</code> and an OpenTimelineIO <code>.otio</code> that round-trips through Resolve, Hiero and <code>otiotool</code>. No more "it won't open on my machine".</p>
+              <a class="link" href="https://github.com/katherinejenniferhsfeemster/video-production-portfolio/tree/main/projects/openshot-osp-builder" target="_blank" rel="noopener">Case study →</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-body">
+              <p class="tag">Lightworks · CMX-3600 EDL · 33pt LUT</p>
+              <h3>Lightworks EDL export</h3>
+              <p>Finishing hand-off: CMX-3600 <code>.edl</code>, a producer-friendly <code>shotlist.tsv</code>, and a generated 33pt teal/amber <code>.cube</code> LUT so the look survives the round-trip to Lightworks or Resolve.</p>
+              <a class="link" href="https://github.com/katherinejenniferhsfeemster/video-production-portfolio/tree/main/projects/lightworks-edl-export" target="_blank" rel="noopener">Case study →</a>
+            </div>
+          </article>
+
+          <article class="card accent-card">
+            <div class="card-body">
+              <p class="tag">Whisper · SRT · ffmpeg subtitles</p>
+              <h3>Auto-captioning + burn-in</h3>
+              <p>Whisper (when <code>WHISPER=1</code>) or a committed transcript feed the same SRT into ffmpeg's <code>subtitles</code> filter. Output honors a 10 % action-safe margin so captions never clip on mobile 9:16 crops.</p>
+              <a class="link" href="https://github.com/katherinejenniferhsfeemster/video-production-portfolio/tree/main/projects/auto-captioning" target="_blank" rel="noopener">Case study →</a>
+            </div>
+          </article>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="code" class="section dark">
+    <div class="wrap">
+      <h2>Code you can actually run</h2>
+      <p class="section-lede">Every asset on this page is regenerated by GitHub Actions on every push — never pre-baked. Clone the repo, run one script, get the same MP4.</p>
+
+      <div style="margin: 0 0 36px 0;">
+        <figure class="hero-art" style="background: #0F1A1F; padding: 22px;">
+          <video src="assets/portfolio_cut.mp4" controls playsinline muted preload="metadata" poster="assets/timeline_mock.png" style="width: 100%; height: auto; display: block; border-radius: 4px;"></video>
+          <figcaption style="color: #B8BFC4;">15-second editorial cut — three curated clips, xfade transitions, dynamic lower-thirds, 1080p30 H.264 · rendered live from <code>render_demo.py</code>.</figcaption>
+        </figure>
+      </div>
+
+      <div class="code-grid">
+        <div class="code-card">
+          <h4>Dataset curation — PySceneDetect + aHash</h4>
+          <pre><code>python scripts/python/curate_dataset.py</code></pre>
+          <p>Scene-detects and deduplicates raw footage, writes a diffable <code>manifest.csv</code>, normalizes survivors to 1080p30 / yuv420p / AAC 48 kHz.</p>
+        </div>
+        <div class="code-card">
+          <h4>Shotcut project generator</h4>
+          <pre><code>python scripts/python/build_shotcut_mlt.py</code></pre>
+          <p>Emits <code>scripts/projects/portfolio.mlt</code> with profile, producers, playlist, tractor and <code>dynamicText</code> lower-thirds — opens in Shotcut 22.06+.</p>
+        </div>
+        <div class="code-card">
+          <h4>OpenShot + OTIO builder</h4>
+          <pre><code>python scripts/python/build_openshot_osp.py</code></pre>
+          <p>Writes a JSON <code>.osp</code> for OpenShot and an OpenTimelineIO <code>.otio</code> for Resolve / Hiero / custom tools.</p>
+        </div>
+        <div class="code-card">
+          <h4>Lightworks EDL + LUT</h4>
+          <pre><code>python scripts/python/export_lightworks_edl.py</code></pre>
+          <p>CMX-3600 EDL, producer-friendly shotlist TSV, and a 33pt teal/amber <code>.cube</code> LUT applicable via <code>ffmpeg lut3d=</code>.</p>
+        </div>
+        <div class="code-card">
+          <h4>Auto-captioning + burn-in</h4>
+          <pre><code>python scripts/python/auto_caption.py</code></pre>
+          <p>Whisper when <code>WHISPER=1</code>, otherwise a committed SRT. Burned in via <code>subtitles</code> filter with a 10 % action-safe bottom margin.</p>
+        </div>
+        <div class="code-card">
+          <h4>Rebuild the whole pipeline</h4>
+          <pre><code>python scripts/python/run_all.py</code></pre>
+          <p>One-shot: synthetic clips → curation → MLT / OSP / OTIO / EDL → captions → final cut → posters. The same script CI runs.</p>
+        </div>
+      </div>
+
+      <div style="margin-top: 36px;">
+        <figure class="hero-art" style="background: #0F1A1F; padding: 22px;">
+          <img src="assets/waveform_scopes.png" alt="Audio waveform and RGB parade scopes of the first curated clip" />
+          <figcaption style="color: #B8BFC4;">Audio waveform (1 kHz tone) and RGB parade — column-mean of the clip's middle frame. Both scopes regenerated in CI.</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section id="stack" class="section">
+    <div class="wrap">
+      <h2>Stack</h2>
+      <div class="stack-grid">
+        <div><h4>Editorial NLEs</h4><p>Shotcut (MLT XML), OpenShot (JSON project), Lightworks (CMX-3600 EDL). Projects are generated, not clicked — every cut is reviewable in a PR.</p></div>
+        <div><h4>Finishing &amp; color</h4><p>3D LUTs in <code>.cube</code>, applied via ffmpeg <code>lut3d</code> or any NLE. Teal / amber editorial look. EBU R128 loudness targets across the deliverables.</p></div>
+        <div><h4>Interchange</h4><p>OpenTimelineIO across tools, DNxHR / ProRes proxies for offline finishing, H.264 / H.265 for delivery. One source of truth drives every emitter.</p></div>
+        <div><h4>Dataset curation</h4><p>PySceneDetect for cuts, OpenCV + aHash for dedup, <code>ffprobe</code> + <code>ffmpeg</code> for normalization. Diffable <code>manifest.csv</code> and audit log of rejects.</p></div>
+        <div><h4>Captions &amp; accessibility</h4><p>Whisper transcription when available, otherwise committed SRT. Burned-in ASS styling, 10 % action-safe margin. WCAG 2.2 1.2.2 in mind.</p></div>
+        <div><h4>Code &amp; CI</h4><p>Python (numpy, matplotlib, opencv-python, scenedetect, opentimelineio), ffmpeg. Git, GitHub Actions. Every artefact is regenerated on push.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section about">
+    <div class="wrap about-inner">
+      <div>
+        <h2>About</h2>
+        <p>I'm a senior video production professional with [years] years spanning editorial, motion, and technical supervision for [Company, years] — most recently focused on video assets for AI research programs. I care about reproducible pipelines, honest delivery specs (EBU R128 is necessary but not sufficient), accessible captions done right, and timelines that still render the same MP4 a year from now.</p>
+        <p>Open to remote and contract engagements in video editorial, post supervision, or research-facing media engineering. The repository linked below is the living portfolio companion to my CV.</p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="https://github.com/katherinejenniferhsfeemster/video-production-portfolio" target="_blank" rel="noopener">Portfolio on GitHub</a>
+          <a class="btn btn-ghost" href="https://github.com/katherinejenniferhsfeemster" target="_blank" rel="noopener">@katherinejenniferhsfeemster</a>
+        </div>
+      </div>
+      <aside class="side-card">
+        <h4>At a glance</h4>
+        <ul>
+          <li>Shotcut, OpenShot, Lightworks — all three driven from code</li>
+          <li>ffmpeg / OTIO / EDL / MLT / OSP as interchange</li>
+          <li>Every asset on this site is regenerated in CI</li>
+          <li>No proprietary footage — synthetic clips only</li>
+        </ul>
+      </aside>
+    </div>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-inner">
+    <span>© 2026 Katherine Feemster. Built with ffmpeg, Shotcut, and a lot of Python.</span>
+    <a href="https://github.com/katherinejenniferhsfeemster/video-production-portfolio" target="_blank" rel="noopener">Source ↗</a>
+  </div>
+</footer>
+
+</body>
+</html>

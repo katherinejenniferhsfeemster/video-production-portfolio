@@ -1,0 +1,4 @@
+event	reel	src_in	src_out	rec_in	rec_out	source	label
+1	AX	00:00:00:00	00:00:04:00	00:00:00:00	00:00:04:00	clip_a.mp4	calibration
+2	BX	00:00:00:00	00:00:03:00	00:00:04:00	00:00:07:00	clip_b.mp4	title
+3	CX	00:00:00:15	00:00:05:15	00:00:07:00	00:00:12:00	clip_c.mp4	b-roll
